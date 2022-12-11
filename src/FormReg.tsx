@@ -89,7 +89,7 @@ export default function FormReg() {
                             </div>
                         )}
                     </Field>
-                    <button type="submit">Войти</button>
+                    <button type="submit">Зарегистрироваться</button>
                 </form>
             )}>
         </FinalForm>

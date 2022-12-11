@@ -37,7 +37,6 @@ export default function App() {
             <Route index element={<Home />} />
             <Route path="Form" element={<Form />} />
               <Route path="Form/Loged/:login" element={<Loged />} />
-
             <Route path="FormReg" element={<FormReg />} />
             <Route path="*" element={<NoMatch />} />
           </Route>
@@ -52,17 +51,14 @@ export default function App() {
 function Home() {
   return (
       <div>
-        <h2><font color="#f5f5f5" face="Rockwell" size="5">Home</font></h2>
+        <h2><font color="#f5f5f5" face="Rockwell" size="5">Menu</font></h2>
           <nav>
               <ul>
                   <li>
-                      <Link to="/">Home</Link>
+                      <Link to="/Form">Login</Link>
                   </li>
                   <li>
-                      <Link to="/Form">Form</Link>
-                  </li>
-                  <li>
-                      <Link to="/FormReg">FormReg</Link>
+                      <Link to="/FormReg">Registration</Link>
                   </li>
 
               </ul>

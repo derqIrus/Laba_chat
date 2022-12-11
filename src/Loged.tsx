@@ -6,7 +6,7 @@ function Loged() {
     const {login} = useParams();
     return<>
         <div>
-        <h2>logged </h2>
+        <h2 color="#f5f5f5">logged </h2>
             Здраствуйте {login}
         </div>
     </>;
